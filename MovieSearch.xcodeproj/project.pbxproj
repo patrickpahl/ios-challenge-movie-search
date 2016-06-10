@@ -11,6 +11,11 @@
 		1A4A23461CCAA554003A4350 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23441CCAA554003A4350 /* Main.storyboard */; };
 		1A4A23481CCAA554003A4350 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23471CCAA554003A4350 /* Assets.xcassets */; };
 		1A4A234B1CCAA554003A4350 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */; };
+		DD8A47521D02171700F41620 /* NetworkController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A47511D02171700F41620 /* NetworkController.swift */; };
+		DD8A47541D0217FB00F41620 /* Movie.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A47531D0217FB00F41620 /* Movie.swift */; };
+		DD8A47561D021E8000F41620 /* MovieController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD8A47551D021E8000F41620 /* MovieController.swift */; };
+		DD95FEEB1D0B1A34003B9FA7 /* ListMovieTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95FEEA1D0B1A34003B9FA7 /* ListMovieTableViewController.swift */; };
+		DD95FEED1D0B1A5A003B9FA7 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DD95FEEC1D0B1A5A003B9FA7 /* DetailViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +25,11 @@
 		1A4A23471CCAA554003A4350 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1A4A234A1CCAA554003A4350 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1A4A234C1CCAA554003A4350 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DD8A47511D02171700F41620 /* NetworkController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkController.swift; sourceTree = "<group>"; };
+		DD8A47531D0217FB00F41620 /* Movie.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Movie.swift; sourceTree = "<group>"; };
+		DD8A47551D021E8000F41620 /* MovieController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieController.swift; sourceTree = "<group>"; };
+		DD95FEEA1D0B1A34003B9FA7 /* ListMovieTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListMovieTableViewController.swift; sourceTree = "<group>"; };
+		DD95FEEC1D0B1A5A003B9FA7 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,11 @@
 			children = (
 				1A4A23401CCAA554003A4350 /* AppDelegate.swift */,
 				1A4A23441CCAA554003A4350 /* Main.storyboard */,
+				DD8A47511D02171700F41620 /* NetworkController.swift */,
+				DD8A47531D0217FB00F41620 /* Movie.swift */,
+				DD8A47551D021E8000F41620 /* MovieController.swift */,
+				DD95FEEA1D0B1A34003B9FA7 /* ListMovieTableViewController.swift */,
+				DD95FEEC1D0B1A5A003B9FA7 /* DetailViewController.swift */,
 				1A4A23471CCAA554003A4350 /* Assets.xcassets */,
 				1A4A23491CCAA554003A4350 /* LaunchScreen.storyboard */,
 				1A4A234C1CCAA554003A4350 /* Info.plist */,
@@ -132,7 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DD95FEEB1D0B1A34003B9FA7 /* ListMovieTableViewController.swift in Sources */,
+				DD8A47561D021E8000F41620 /* MovieController.swift in Sources */,
+				DD8A47521D02171700F41620 /* NetworkController.swift in Sources */,
+				DD95FEED1D0B1A5A003B9FA7 /* DetailViewController.swift in Sources */,
 				1A4A23411CCAA554003A4350 /* AppDelegate.swift in Sources */,
+				DD8A47541D0217FB00F41620 /* Movie.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +302,7 @@
 				1A4A23511CCAA554003A4350 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
